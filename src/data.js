@@ -8,23 +8,23 @@ export default [
   },
   {
     id: 2,
-    name: 'Hester Hogan',
-    dob: "2000-03-25",
+    name: 'Narasimhulu',
+    dob: "2000-04-13",
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-3_rxtqvi.jpg',
+      './das.jpg',
   },
   {
     id: 3,
     name: 'Pala Divakar',
-    dob: "2001-04-06",
+    dob: "2001-04-13",
     image:'./div.jpg',
   },
   {
     id: 4,
-    name: 'Sean Walsh',
+    name: 'Gana Teja',
     dob: "1998-03-25",
     image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+      './gana.jpg',
   },
   {
     id: 5,

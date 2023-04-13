@@ -18,12 +18,11 @@ function App() {
       <Toolbar>
       <Button variant="outlined" color="inherit" style={{marginLeft:"20px"}} onClick={()=>setValue(0)}>All Details</Button>
       <Button variant="outlined" color="inherit" style={{marginLeft:"10px"}} onClick={()=>setValue(1)}>Today Borns</Button>
-      </Toolbar>
-      
+      </Toolbar>   
     {value==0&&
     <main>
       <section className='container'>
-        <h3>Birthdays list</h3>
+        <h3>Total Birthdays list</h3>
         <hr></hr>
 
         <List people={people} value={value}/>
@@ -33,14 +32,13 @@ function App() {
     {value==1&&
     <main>
       <section className='container'>
-        <h3>Today</h3>
+        <h3>Today's Birthdays list</h3>
         <hr></hr>
 
         <List people={people} value={value}/>
         {/* <button onClick={() => setPeople([])}>clear all</button> */}
       </section>
-    </main>}
-   
+    </main>} 
     </Container>
   )
 }
