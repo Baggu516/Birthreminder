@@ -26,7 +26,9 @@ const List = ({ people,value }) => {
           </article>
         );
       })}
-        {value==1&&filterdata.map((person) => {
+        {value==1 && filterdata.length!=0?
+        <>
+        {filterdata.map((person) => {
         const { id, name, image } = person;
         var persondate=new Date(person.dob)
         // console.log(dob)
@@ -40,6 +42,7 @@ const List = ({ people,value }) => {
           </article>
         );
       })}
+      </>:<>No one's Birthday  Today</>}
     </>
   );
 };
